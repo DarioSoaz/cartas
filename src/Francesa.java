@@ -22,8 +22,8 @@ public class Francesa extends Baraja {
 			
 	//creo la baraja
 		int valor;
-		for(int i=0;i<=palo.length;i++) {
-			for(int j=0; j<=nombre.length;j++) {
+		for(int i=0;i<palo.length;i++) {
+			for(int j=0; j<nombre.length;j++) {
 				if (j>9) { valor=10;	}
 				else {valor=j+1;	}
 				cartas.add(new Carta(palo[i],nombre[j],valor));

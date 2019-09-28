@@ -35,7 +35,7 @@ public class Jugador {
 		for(int i=0; i<=cartas.size();i++) {
 		CartasJugador+=cartas.get(i);		
 		}
-		return CartasJugador;
+		return "["+CartasJugador+"]";
 	
 	}
 
